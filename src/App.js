@@ -10,7 +10,7 @@ import React, { Component } from 'react';
          { description: 'Walk the cat', isCompleted: true },
          { description: 'Throw the dishes away', isCompleted: false },
          { description: 'Buy new dishes', isCompleted: false }
-       ],
+       ], 
           newTodoDescription: ''
      };
    }
@@ -23,7 +23,7 @@ import React, { Component } from 'react';
       e.preventDefault();
       if (!this.state.newTodoDescription) { return }
       const newTodo = { description: this.state.newTodoDescription, isCompleted: false };
-      this.setState({ todos: [...this.state.todos, newTodo], newTodoDescription: '' }); 
+      this.setState({ todos: [...this.state.todos, newTodo], newTodoDescription: '' });
     }
 
    toggleComplete(index) {
