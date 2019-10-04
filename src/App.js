@@ -7,9 +7,9 @@ import React, { Component } from 'react';
      super(props);
      this.state = {
        todos: [
-         { description: 'Walk the cat', isCompleted: true },
-         { description: 'Throw the dishes away', isCompleted: false },
-         { description: 'Buy new dishes', isCompleted: false }
+         { description: 'Use State to control the To-do list', isCompleted: true },
+         { description: 'Hire this guy', isCompleted: false },
+         { description: 'Pay him One-Billion $$$$$ ', isCompleted: false }
        ],
           newTodoDescription: ''
      };
